@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { Button } from './Button'
 
 
 const Navbar = () => {
@@ -35,7 +36,8 @@ const Navbar = () => {
                     <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>Sign-Up</Link>
                 </li>
             </ul>
-          </div>
+            {Button && <Button buttonStyle='btn--outline'> SIGN UP</Button> }
+          </div> 
       </nav>
     </div>
   )
