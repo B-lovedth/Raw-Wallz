@@ -26,5 +26,5 @@ export const Button = (
             
         </Link>
     )
-}  
+} 
 
