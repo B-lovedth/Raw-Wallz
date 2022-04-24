@@ -5,6 +5,7 @@ import { Button } from './Button'
 
 const Navbar = () => {
      const[click,setClick] = useState(false)
+     const[button,useButton] =useState(true)
      const handleClick=()=>{
         setClick(!click)
      }
@@ -36,7 +37,7 @@ const Navbar = () => {
                     <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>Sign-Up</Link>
                 </li>
             </ul>
-            {Button && <Button buttonStyle='btn--outline'> SIGN UP</Button> }
+            {button && <Button buttonStyle='btn--outline' > SIGN UP</Button> }
           </div> 
       </nav>
     </div>
