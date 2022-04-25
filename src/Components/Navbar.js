@@ -49,6 +49,7 @@ const Navbar = () => {
                 </li>
             </ul>
             {button && <Button buttonStyle='btn--outline' >SIGN UP</Button>}
+            {button && console.log('button')}
           </div> 
       </nav>
     </div>
