@@ -48,8 +48,7 @@ const Navbar = () => {
                     <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>Sign-Up</Link>
                 </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline' >SIGN UP</Button>}
-            {button && console.log('button')}
+            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} 
           </div> 
       </nav>
     </div>
