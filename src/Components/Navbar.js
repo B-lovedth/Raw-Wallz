@@ -39,7 +39,7 @@ const Navbar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+                {/* Home */}<i class="fa-solid fa-house"></i>
               </Link>
             </li>
             <li className="nav-item">
@@ -48,7 +48,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                {/* Services */}<i class="fa-solid fa-computer"></i>
               </Link>
             </li>
             <li className="nav-item">
@@ -57,7 +57,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                {/* Products */} <i class="fa-solid fa-bars-progress"></i>
               </Link>
             </li>
             <li className="nav-item">
