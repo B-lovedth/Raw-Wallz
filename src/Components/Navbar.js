@@ -1,9 +1,9 @@
 /** @format */
 
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
-import './Navbar.css'
+import "./Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -26,9 +26,9 @@ const Navbar = () => {
 
   window.addEventListener("resize", showButton);
 
-  useEffect(()=>{
-    showButton()
-  },[])
+  useEffect(() => {
+    showButton();
+  }, []);
 
   return (
     <div>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                {click ? "Services" :<i class="fa-solid fa-computer"></i>}
+                {click ? "Services" : <i class="fa-solid fa-computer"></i>}
               </Link>
             </li>
             <li className="nav-item">
@@ -61,7 +61,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                {click ? 'Products' : <i class="fa-solid fa-bars-progress"></i>}
+                {click ? "Products" : <i class="fa-solid fa-bars-progress"></i>}
               </Link>
             </li>
             <li className="nav-item">
