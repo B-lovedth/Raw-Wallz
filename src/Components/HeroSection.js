@@ -11,6 +11,9 @@ const HeroSection = () => {
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
+            >
+                GEE STARTED
+            </Button>
       </div>
     </div>
   )
