@@ -39,3 +39,11 @@
     color: #242424;
     transition: all 1000ms ease-in-out;
 }
+.btn-color{
+    background: #333;
+    color: #fff;
+    border-radius: 100%;
+    padding:3px 2px;
+    margin-right: 100px;
+    
+}

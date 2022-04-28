@@ -77,7 +77,6 @@ const Navbar = () => {
           {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
-      <button>c</button>
     </div>
   );
 };
