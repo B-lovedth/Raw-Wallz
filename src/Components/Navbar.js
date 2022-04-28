@@ -31,10 +31,10 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            SOMA <i></i>
+            SOMA <i class="fa-brands fa-sitrox fa-flip"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+            <i className={click ? "fas fa-times" : "fas fa-bars-staggered"}></i>
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
