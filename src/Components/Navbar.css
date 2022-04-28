@@ -89,13 +89,13 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 80vh;
+      height: 85vh;
       position: absolute;
       top: 80px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
-      padding-bottom: 30px;
+      padding-bottom: 40px;
     }
   
     .nav-menu.active {
@@ -146,7 +146,7 @@
       text-align: center;
       margin: 2rem auto;
       border-radius: 4px;
-      width: 80%;
+      width: 70%;
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
