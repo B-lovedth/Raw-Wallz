@@ -61,7 +61,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                {/* Products */} <i class="fa-solid fa-bars-progress"></i>
+                {click ? 'Products' : <i class="fa-solid fa-bars-progress"></i>}
               </Link>
             </li>
             <li className="nav-item">
