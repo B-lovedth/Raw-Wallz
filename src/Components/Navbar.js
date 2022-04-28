@@ -35,7 +35,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            SOMA <i class="fa-brands fa-sitrox fa-flip"></i>
+            <i class="fa-brands fa-sitrox fa-bounce"></i>OMA
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars-staggered"}></i>
@@ -77,6 +77,7 @@ const Navbar = () => {
           {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
+      <button>c</button>
     </div>
   );
 };
