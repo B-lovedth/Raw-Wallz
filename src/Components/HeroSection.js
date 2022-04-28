@@ -12,7 +12,7 @@ const HeroSection = () => {
             buttonStyle='btn--outline'
             buttonSize='btn--large'
             >
-                GEE STARTED
+                GET STARTED
             </Button>
       </div>
     </div>
