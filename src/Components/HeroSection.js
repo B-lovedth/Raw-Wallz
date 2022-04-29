@@ -1,4 +1,5 @@
 import { Button } from "./Button"
+import './HeroSection.css'
 
 const HeroSection = () => {
   return (
