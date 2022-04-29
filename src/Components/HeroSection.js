@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { Button } from "./Button"
 
 const HeroSection = () => {
@@ -14,7 +12,7 @@ const HeroSection = () => {
             buttonStyle='btn--outline'
             buttonSize='btn--large'
             >
-                GET STARTED<FontAwesomeIcon icon={solid('user-secret')} />
+                GET STARTED
             </Button>
       </div>
     </div>
