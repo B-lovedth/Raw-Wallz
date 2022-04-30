@@ -14,7 +14,7 @@ const HeroSection = () => {
             buttonStyle='btn--outline'
             buttonSize='btn--large'
             >
-                GET STARTED
+              GET STARTED
             </Button>
           <Button
             className='btns'
