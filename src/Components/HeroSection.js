@@ -16,6 +16,13 @@ const HeroSection = () => {
             >
                 GET STARTED
             </Button>
+          <Button
+            className='btns'
+            buttonStyle='btn--primary'
+            buttonSize='btn--large'
+            >
+              WATCH TRAILER <i class="fa-regular fa-circle-play"></i>
+            </Button>
       </div>
     </div>
   )
