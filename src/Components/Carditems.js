@@ -11,7 +11,9 @@ const Carditems = () => {
                     <img src='/' alt='Travel image' className='card--item--img'/>
                 </figure>
                 <div className="cards--item--info">
-                    <h5 className="card--item--text"></h5>
+                    <h5 className="card--item--text">
+                        
+                    </h5>
                 </div>
             </Link>
         </li>
