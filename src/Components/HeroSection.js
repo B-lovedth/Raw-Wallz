@@ -13,6 +13,7 @@ const HeroSection = () => {
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
+            link='/sign-up'
             >
               GET STARTED
             </Button>
@@ -20,6 +21,7 @@ const HeroSection = () => {
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
+            link='/trailer'
             >
               WATCH TRAILER <i class="fa-regular fa-circle-play"></i>
             </Button>
