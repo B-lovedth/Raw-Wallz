@@ -9,7 +9,12 @@ const Cards = () => {
       <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__item">
-              <Carditems/>
+              <Carditems 
+              src='images/img-9.jpg'
+              text='Explore the hidden Water'
+              label='Adventure'
+              path='/services'
+              />
             </ul>
           </div>
       </div>
