@@ -8,7 +8,7 @@ const Cards = () => {
       <h1>Check out these Awesome Categories</h1>
       <div className="cards__container">
           <div className="cards__wrapper">
-            <ul className="cards__item">
+            <ul className="cards__items">
               <Carditems 
               src='images/img-9.jpg'
               text='Explore Home and interior based images'
