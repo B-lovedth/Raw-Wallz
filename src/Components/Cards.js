@@ -5,14 +5,14 @@ import './Cards.css'
 const Cards = () => {
   return (
     <div className='cards'>
-      <h1>Check out these Awesome Destinations</h1>
+      <h1>Check out these Awesome Categories</h1>
       <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__item">
               <Carditems 
               src='images/img-9.jpg'
-              text='Explore the hidden Water'
-              label='Adventure'
+              text='Explore Home and interior based images'
+              label='Home'
               path='/services'
               />
             </ul>
