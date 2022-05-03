@@ -1,5 +1,6 @@
 import React from 'react'
 import Carditems from './Carditems'
+import './Cards.css'
 
 const Cards = () => {
   return (
@@ -8,7 +9,7 @@ const Cards = () => {
       <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__item">
-
+              <Carditems/>
             </ul>
           </div>
       </div>
