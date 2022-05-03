@@ -13,5 +13,5 @@ const Cards = () => {
     </div>
   )
 }
- className='cards'
+ 
 export default Cards
