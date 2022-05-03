@@ -117,6 +117,9 @@
     .cards__items {
       display: flex;
     }
+    .cards__item__pic-wrap {
+      padding:195px;
+    }
   }
   
   @media only screen and (max-width: 1024px) {
@@ -148,5 +151,10 @@
   @media(max-width:930px){
     .cards__item__pic-wrap {
       padding:130px;
+    }
+  }
+  @media(max-width:840px){
+    .cards__item__pic-wrap {
+      padding:120px;
     }
   }
