@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 const Carditems = () => {
   return (
     <div>
-        <li className="cards--item">
-            <Link className='cards--item--link'>
-                <figure className="card-item-pic-wrap">
-                    <img src='/' alt='Travel image' className='card--item--img'/>
+        <li className="cards__item">
+            <Link className='cards__item-__link'>
+                <figure className="cards__item__pic-wrap">
+                    <img src='/' alt='Travel image' className='cards__item__img'/>
                 </figure>
-                <div className="cards--item--info">
-                    <h5 className="card--item--text">
+                <div className="cards__item__info">
+                    <h5 className="cards__item__text">
                         
                     </h5>
                 </div>
