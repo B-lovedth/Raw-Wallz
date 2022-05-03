@@ -11,13 +11,13 @@ const Cards = () => {
             <ul className="cards__items">
               <Carditems 
               src='images/img-9.jpg'
-              text='Explore Home and interior based images'
+              text='Explore t'
               label='Home'
               path='/services'
               />
               <Carditems 
-              src='images/img-8.jpg'
-              text='Explore Home and interior based images'
+              src='images/img-9.jpg'
+              text='Travel Through the Islands of Bali in a private cruise'
               label='Nature'
               path='/services'
               />
@@ -25,13 +25,13 @@ const Cards = () => {
             <ul className="cards__items">
               <Carditems 
               src='images/img-9.jpg'
-              text='Explore Home and interior based images'
+              text='Explore the hidden waterfall deep inside the amazon jungle'
               label='Home'
               path='/services'
               />
               <Carditems 
               src='images/img-8.jpg'
-              text='Explore Home and interior based images'
+              text='travel through the islands of bali in a private cruise'
               label='Nature'
               path='/services'
               />
