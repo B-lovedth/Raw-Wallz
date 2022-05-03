@@ -37,7 +37,7 @@ const Cards = () => {
               />
               <Carditems 
               src='images/img-8.jpg'
-              text='the words i speak'
+              text='the words i speak '
               label='Nature'
               path='/services'
               />
