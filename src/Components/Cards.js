@@ -10,7 +10,33 @@ const Cards = () => {
           <div className="cards__wrapper">
             <ul className="cards__items">
               <Carditems 
-              src='images/img-5.jpg'
+              src='images/img-9.jpg'
+              text='Explore Home and interior based images'
+              label='Home'
+              path='/services'
+              />
+              <Carditems 
+              src='images/img-8.jpg'
+              text='Explore Home and interior based images'
+              label='Nature'
+              path='/services'
+              />
+            </ul>
+            <ul className="cards__items">
+              <Carditems 
+              src='images/img-9.jpg'
+              text='Explore Home and interior based images'
+              label='Home'
+              path='/services'
+              />
+              <Carditems 
+              src='images/img-8.jpg'
+              text='Explore Home and interior based images'
+              label='Nature'
+              path='/services'
+              />
+              <Carditems 
+              src='images/img-7.jpg'
               text='Explore Home and interior based images'
               label='Home'
               path='/services'

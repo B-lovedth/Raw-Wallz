@@ -36,9 +36,9 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    box-shadow: 0 6px 20px rgba(1, 20, 57, 0.301);
+    -webkit-filter: drop-shadow(0 6px 20px #29292942);
+    filter: drop-shadow(0 6px 20px #2929295a);
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
