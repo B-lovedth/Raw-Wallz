@@ -49,7 +49,7 @@ const Cards = () => {
               path='/services'
               />
             </ul>
-            <Link to='/'><button id='btn-more'>more</button></Link>
+            <Link to='/'><button id='btn-more'>More</button></Link>
           </div>
       </div>
     </div>
