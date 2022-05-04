@@ -41,6 +41,12 @@ const Cards = () => {
               label='Anime'
               path='/services'
               />
+              <Carditems 
+              src='images/img-13.jpg'
+              text='Anime Themed images'
+              label='Anime'
+              path='/services'
+              />
             </ul>
           </div>
       </div>
