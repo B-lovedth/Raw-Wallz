@@ -22,23 +22,23 @@ const Cards = () => {
               path='/services'
               />
               <Carditems 
-              src='images/img-8.jpg'
-              text="Enjoy Nature's serenity"
-              label='Nature'
+              src='images/img-5.jpg'
+              text="Beach and oceanic veiw"
+              label='Exotic'
               path='/services'
               />
             </ul>
             <ul className="cards__items">
               <Carditems 
-              src='images/img-9.jpg'
-              text='the words i speak'
-              label='Home'
+              src='images/img-3.jpg'
+              text='Landscape Aesthetics '
+              label='Landscape'
               path='/services'
               />
               <Carditems 
-              src='images/img-8.jpg'
-              text='the words i speak '
-              label='Nature'
+              src='images/img-12.jpg'
+              text='Animation Themed'
+              label='Anime'
               path='/services'
               />
             </ul>
