@@ -142,7 +142,7 @@
   }
    @media(max-width:990px){
     .cards__item__pic-wrap {
-      padding:190px;
+      padding:190px 250px;
     }
   }
  /* @media(max-width:930px){
