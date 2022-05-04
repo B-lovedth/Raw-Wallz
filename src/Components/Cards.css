@@ -113,12 +113,9 @@
       width: 84%;
     }
   }   */
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 800px) {
     .cards__items {
       display: flex;
-    }
-    .cards__item__pic-wrap {
-      padding:195px;
     }
   }
   
@@ -143,12 +140,12 @@
       padding:150px;
     }
   }
-  @media(max-width:990px){
+   @media(max-width:990px){
     .cards__item__pic-wrap {
-      padding:140px;
+      padding:190px;
     }
   }
-  @media(max-width:930px){
+ /* @media(max-width:930px){
     .cards__item__pic-wrap {
       padding:130px;
     }
@@ -157,4 +154,4 @@
     .cards__item__pic-wrap {
       padding:120px;
     }
-  }
+  } */
