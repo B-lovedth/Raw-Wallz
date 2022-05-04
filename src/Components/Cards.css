@@ -109,7 +109,9 @@
     line-height: 24px;
   }
   #btn-more{
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    position: absolute;
+    right:1px;
     padding:10px 20px;
     background: #fff;
     border: 1px dotted;
@@ -117,7 +119,7 @@
     -webkit-filter: drop-shadow(0 3px 10px #2929290a);
     filter: drop-shadow(0 3px 10px #2929290a);
     border-radius: 10px;
-    font-size: 4px;
+    font-size: 11px;
   }
   
   /* @media only screen and (min-width: 1200px) {
