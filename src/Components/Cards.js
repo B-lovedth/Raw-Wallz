@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Carditems from './Carditems'
 import './Cards.css'
 
@@ -44,10 +45,11 @@ const Cards = () => {
               <Carditems 
               src='images/img-13.jpg'
               text='Anime Themed images'
-              label='Anime'
+              label='Abstract'
               path='/services'
               />
             </ul>
+            <Link to='/'><button id='btn-more'>more</button></Link>
           </div>
       </div>
     </div>
