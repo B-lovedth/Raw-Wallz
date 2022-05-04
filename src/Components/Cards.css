@@ -48,7 +48,7 @@
     position: relative;
     width: 100%;
     /* padding-top: 67%; */
-    padding: 195px;
+    padding:120px 195px;
     overflow: hidden;
   }
   
@@ -113,7 +113,7 @@
       width: 84%;
     }
   }   */
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 990px) {
     .cards__items {
       display: flex;
     }
@@ -132,12 +132,12 @@
   }
   @media(max-width:1260px){
     .cards__item__pic-wrap {
-      padding:165px;
+      padding:165px 170px;
     }
   }
   @media(max-width:1200px){
     .cards__item__pic-wrap {
-      padding:150px;
+      padding:150px 170px;
     }
   }
    @media(max-width:990px){
@@ -145,13 +145,9 @@
       padding:190px 250px;
     }
   }
- /* @media(max-width:930px){
+
+ @media(max-width:930px){
     .cards__item__pic-wrap {
-      padding:130px;
+      padding:170px 220px;
     }
   }
-  @media(max-width:840px){
-    .cards__item__pic-wrap {
-      padding:120px;
-    }
-  } */
