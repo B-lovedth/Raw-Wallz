@@ -37,7 +37,7 @@ const Cards = () => {
               />
               <Carditems 
               src='images/img-12.jpg'
-              text='Animation Themed'
+              text='Anime Themed images'
               label='Anime'
               path='/services'
               />
