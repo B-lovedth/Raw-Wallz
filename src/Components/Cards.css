@@ -111,10 +111,10 @@
   #btn-more{
     /* margin-left: 20px; */
     position: absolute;
-    right:1px;
+    right:15px;
     padding:10px 20px;
     background: #fff;
-    border: 1px dotted;
+    border: 0px dotted;
     box-shadow: 0 6px 10px rgba(1, 20, 57, 0.301);
     -webkit-filter: drop-shadow(0 3px 10px #2929290a);
     filter: drop-shadow(0 3px 10px #2929290a);
