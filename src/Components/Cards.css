@@ -71,11 +71,11 @@
     box-sizing: border-box;
   }
 
-  .cards__item__pic-wrap::after:hover {
+  .cards__item__pic-wrap:hover::after,
+  .cards__item__pic-wrap:focus::after{
     background-color: #feffff;
     color: #003e6e;
     box-sizing: border-box;
-
   }
   
   .cards__item__img {
@@ -164,3 +164,8 @@
       padding:170px 190px;
     }
   }
+@media(max-width: 390px) {
+  .cards__item__pic-wrap {
+    padding:145px 160px;
+  }
+}
