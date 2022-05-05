@@ -6,7 +6,8 @@ const HeroSection = () => {
   return (
     <div className = 'hero-container'>
       {/* <video src="./Video/video-4.mp4" autoPlay loop muted/> */}
-      <h1>Adventure Awaits</h1>
+      <img src="./images/img-16.png" alt="B-img" className="img" />
+      <h1>Explore Amazing Images</h1>
       <p>Let's go</p>
       <div className="hero-btns">
           <Button
