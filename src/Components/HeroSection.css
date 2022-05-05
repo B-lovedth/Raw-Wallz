@@ -5,22 +5,27 @@ video{
     position: fixed;
     z-index: -1;
 }
-.img{
+.hero-container::before{
+    content:' ';
+    background-image: url('../../public/images/img-16.png');
     background-attachment:fixed;
     position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(2px);
+    filter: blur(3px);
     z-index: -1;
     object-fit: cover;
     width: 100%;
     height: 100%;
+    transition: all 1000ms ease;
 }
-.img:hover{
-    filter: blur(0px);
-    transition: all 500ms ease;
+
+.hero-container:hover::before{
+    filter:blur(0px);
+    transition: all 1500ms ease;
 }
+
 .hero-container{
     height:100vh;
     width:100%;
@@ -30,6 +35,7 @@ video{
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit:contain;
+    transition: all 500ms ease-in;
 }
 
 .hero-container  h1{

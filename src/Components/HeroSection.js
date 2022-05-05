@@ -27,7 +27,7 @@ const HeroSection = () => {
               WATCH TRAILER <i class="fa-regular fa-circle-play"></i>
             </Button>
       </div>
-    <img src="./images/img-16.png" alt="B-img" className="img" />
+    {/* <img src="./images/img-16.png" alt="B-img" className="img" /> */}
     </div>
     </>
   )
