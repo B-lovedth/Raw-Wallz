@@ -4,9 +4,9 @@ import '../App.css'
 
 const HeroSection = () => {
   return (
+    <>
     <div className = 'hero-container'>
       {/* <video src="./Video/video-4.mp4" autoPlay loop muted/> */}
-      <img src="./images/img-16.png" alt="B-img" className="img" />
       <h1>Explore Amazing Images</h1>
       <p>Let's go</p>
       <div className="hero-btns">
@@ -27,7 +27,9 @@ const HeroSection = () => {
               WATCH TRAILER <i class="fa-regular fa-circle-play"></i>
             </Button>
       </div>
+    <img src="./images/img-16.png" alt="B-img" className="img" />
     </div>
+    </>
   )
 }
 
