@@ -159,8 +159,8 @@
     }
   }
 
- @media(max-width:930px){
+ @media(max-width:760px){
     .cards__item__pic-wrap {
-      padding:170px 220px;
+      padding:170px 190px;
     }
   }
