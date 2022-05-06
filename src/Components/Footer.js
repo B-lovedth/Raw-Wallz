@@ -45,6 +45,16 @@ const Footer = () => {
               </div>
           </div>
       </div>
+      <section className="social-media">
+          <div className="social-media-wrap">
+              <div className="footer-logo">
+                  <Link className='social-logo'>
+                    <i class="fa-brands fa-sitrox fa-bounce"></i>OMA
+                  </Link>
+              </div>
+              <small className="website-rights">SOMA 2022</small>
+          </div>
+      </section>
     </div>
   )
 }
