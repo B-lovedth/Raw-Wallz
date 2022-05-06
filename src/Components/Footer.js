@@ -70,7 +70,19 @@ const Footer = () => {
                 to='/'
                 target='blank'
                 aria-label='Twitter'>
-                    <i className="fab fa-Twitter"></i>
+                    <i className="fab fa-twitter"></i>
+                </Link>
+                <Link className="social-icon-link instagram"
+                to='/'
+                target='blank'
+                aria-label='Instagram'>
+                    <i className="fab fa-instagram"></i>
+                </Link>
+                <Link className="social-icon-link linkedin"
+                to='/'
+                target='blank'
+                aria-label='Linkedin'>
+                    <i className="fab fa-linkedin"></i>
                 </Link>
               </div>
           </div>
