@@ -164,8 +164,13 @@
       padding:170px 190px;
     }
   }
-@media(max-width: 390px) {
+@media(max-width: 399px) {
   .cards__item__pic-wrap {
-    padding:145px 160px;
+    padding:145px 150px;
+  }
+}
+@media(max-width: 300px) {
+  .cards__item__pic-wrap {
+    padding:110px 100px;
   }
 }
