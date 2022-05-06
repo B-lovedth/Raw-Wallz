@@ -1,10 +1,12 @@
 import React from 'react'
 import { Button } from './Button'
 import './Footer.css'
+import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
   return (
-    <div className='fotter-container'>
+    <div className='footer-container'>
       <section className="footer-subcription">
           <p className="footer-subscription-heading">
               Join the Adventure newsletter to Bla blah blah
@@ -21,6 +23,28 @@ const Footer = () => {
               </form>
           </div>
       </section>
+      <div className="footer-links">
+          <div className="footer-links-wrapper">
+              <div className="footer-links-items">
+                  <h2>About us</h2>
+                  <Link to='/sign-up'>How it Works</Link>
+                  <Link to= '/sign-up'>Testimonials</Link>
+                  <Link to= '/sign-up'>Career</Link>
+                  <Link to= '/sign-up'>Investors</Link>
+                  <Link to= '/sign-up'>Terms of Service</Link>
+              </div>
+          </div>
+          <div className="footer-links-wrapper">
+              <div className="footer-links-items">
+                  <h2>Contact us</h2>
+                  <Link to='/sign-up'>How it Works</Link>
+                  <Link to= '/sign-up'>Testimonials</Link>
+                  <Link to= '/sign-up'>Career</Link>
+                  <Link to= '/sign-up'>Investors</Link>
+                  <Link to= '/sign-up'>Terms of Service</Link>
+              </div>
+          </div>
+      </div>
     </div>
   )
 }
