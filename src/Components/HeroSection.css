@@ -13,7 +13,7 @@ video{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(3px);
+    filter: blur(2px);
     z-index: -1;
     object-fit: cover;
     width: 100%;
