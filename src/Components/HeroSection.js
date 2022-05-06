@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className = 'hero-container'>
       {/* <video src="./Video/video-4.mp4" autoPlay loop muted/> */}
       <h1>Explore Amazing Images</h1>
-      <p>Let's go</p>
+      <p>Let's Go</p>
       <div className="hero-btns">
           <Button
             className='btns'
