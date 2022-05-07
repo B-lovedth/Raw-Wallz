@@ -9,10 +9,10 @@ const Footer = () => {
     <div className='footer-container'>
       <section className="footer-subscription">
           <p className="footer-subscription-heading">
-              Join the Adventure newsletter to Bla blah blah
+              Subscribe to get enjoy downloading priviledges
           </p>
           <p className="footer-subscription-text">
-              You can Blah blah blah
+              You can Unsubscribe at any time
           </p>
           <div className="input-areas">
               <form >
