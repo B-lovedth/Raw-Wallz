@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(34, 34, 34) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(150deg, #002d50 40%, rgb(26, 23, 23) 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #011b2f;
       left: 0;
       top:80px;
       z-index: 1;
