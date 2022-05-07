@@ -8,7 +8,7 @@ function SignUp() {
             <div className="form-container">
                 <div className="form-wrapper">
                 <form action="#">
-                    <label>Name</label>
+                    <label>Username</label>
                     <input type="text" name="Name" id="" />
                 </form>
                 </div>
