@@ -37,10 +37,10 @@ const Footer = () => {
           <div className="footer-link-wrapper">
               <div className="footer-link-items">
                   <h2>Contact us</h2>
-                  <Link to='/sign-up'>How it Works</Link>
-                  <Link to= '/sign-up'>Testimonials</Link>
-                  <Link to= '/sign-up'>Career</Link>
-                  <Link to= '/sign-up'>Investors</Link>
+                  <Link to='/sign-up'>Facebook</Link>
+                  <Link to= '/sign-up'>Instagram</Link>
+                  <Link to= '/sign-up'>Twitter</Link>
+                  <Link to= '/sign-up'>Youtube</Link>
                   <Link to= '/sign-up'>Terms of Service</Link>
               </div>
           </div>
