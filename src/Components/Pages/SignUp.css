@@ -3,7 +3,7 @@
    height: 100vh;
 }
 .form-container{
-    margin: 100px auto 0 auto;
+    margin: 80px auto 0 auto;
     max-width: 400px;
     text-align: center;
 }
@@ -24,7 +24,7 @@
 }
 .form-wrapper input{
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px 10px;
     margin: 20px 0;
     box-sizing: border-box;
@@ -45,4 +45,9 @@
     cursor:pointer;
     font-size: 15px;
     margin-top: 10px;
+}
+.form-wrapper button:hover{
+    background-color: #fff;
+    color:#011b2f;
+    transition:all 500ms ease;
 }
