@@ -1,25 +1,16 @@
 .signup-container{
-    margin-top: 150px;
-    position: absolute;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    margin: 150px auto 0 auto;
     max-width: 400px;
-}
-.form-container{
-    /* width: 80%; */
-    margin: 0 auto;
     text-align: center;
-
 }
 .form-wrapper{
-    width:60%;
     margin: 0 auto;
 }
 .form-wrapper label{
     text-align: left;
     display: block;
     font-size: 20px;
+    color
 }
 .signup-container h1{
     font-size: 40px;
