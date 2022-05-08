@@ -4,18 +4,19 @@ import "./SignUp.css";
 function SignUp() {
     return (
         <div className='signup-container'>
-            <h1>SIGN UP</h1>
             <div className="form-container">
+            <h1>SIGN UP</h1>
                 <div className="form-wrapper">
                 <form action="#">
                     <label>Username</label>
-                    <input type="text" name="Name" id="" />
-                    <label>Username</label>
-                    <input type="text" name="Name" id="" />
-                    <label>Username</label>
-                    <input type="text" name="Name" id="" />
-                    <label>Username</label>
-                    <input type="text" name="Name" id="" />
+                    <input required type="text" name="Name" id="" placeholder="Name" />
+                    <label></label>
+                    <input required type="text" name="Name" id="" placeholder="Preferred Username" />
+                    <label></label>
+                    <input required type="email" name="Name" id="" placeholder="Email" />
+                    <label></label>
+                    <input required type="password" name="Name" id="" placeholder="Password" />
+                    <input required type="password" name="" id="" placeholder="Confirm Password" />
                     <button type="submit">Sign up</button>
                 </form>
                 </div>
