@@ -10,6 +10,13 @@ function SignUp() {
                 <form action="#">
                     <label>Username</label>
                     <input type="text" name="Name" id="" />
+                    <label>Username</label>
+                    <input type="text" name="Name" id="" />
+                    <label>Username</label>
+                    <input type="text" name="Name" id="" />
+                    <label>Username</label>
+                    <input type="text" name="Name" id="" />
+                    <button type="submit"></button>
                 </form>
                 </div>
                 
