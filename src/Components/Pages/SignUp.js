@@ -16,7 +16,7 @@ function SignUp() {
                     <input type="text" name="Name" id="" />
                     <label>Username</label>
                     <input type="text" name="Name" id="" />
-                    <button type="submit"></button>
+                    <button type="submit">Sign up</button>
                 </form>
                 </div>
                 

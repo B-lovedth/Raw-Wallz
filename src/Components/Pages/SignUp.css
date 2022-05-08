@@ -39,3 +39,13 @@
     filter: drop-shadow(0 6px 20px #0e0e0e0a);
     -webkit-filter: drop-shadow(0 6px 20px #0000000a);
 }
+.form-wrapper button{
+    background: #bb0000;
+    color:#fff;
+    border: 0;
+    padding: 10px;
+    border-radius:8px ;
+    cursor:pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
