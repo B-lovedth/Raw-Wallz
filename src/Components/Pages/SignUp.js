@@ -2,7 +2,9 @@ import React from "react";
 import "./SignUp.css";
 
 function SignUp() {
-    
+    const handleClick=()=>{
+        console.log('button clicked')
+    }
     return (
         <div className='signup-container'>
             <div className="form-container">
