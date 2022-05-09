@@ -2,6 +2,7 @@ import React from "react";
 import "./SignUp.css";
 
 function SignUp() {
+    
     return (
         <div className='signup-container'>
             <div className="form-container">
@@ -17,7 +18,7 @@ function SignUp() {
                     <label></label>
                     <input required type="password" name="Name" id="p1" placeholder="Password" />
                     <input required type="password" name="" id="p2" placeholder="Confirm Password" />
-                    <button type="submit">Sign up</button>
+                    <button type="submit" onClick={handleClick}>Sign up</button>
                 </form>
                 </div>
                 
