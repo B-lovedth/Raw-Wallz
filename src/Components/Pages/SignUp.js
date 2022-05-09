@@ -15,8 +15,8 @@ function SignUp() {
                     <label></label>
                     <input required type="email" name="Name" id="" placeholder="Email" />
                     <label></label>
-                    <input required type="password" name="Name" id="" placeholder="Password" />
-                    <input required type="password" name="" id="" placeholder="Confirm Password" />
+                    <input required type="password" name="Name" id="p1" placeholder="Password" />
+                    <input required type="password" name="" id="p2" placeholder="Confirm Password" />
                     <button type="submit">Sign up</button>
                 </form>
                 </div>
