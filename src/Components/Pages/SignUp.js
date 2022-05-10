@@ -3,7 +3,8 @@ import "./SignUp.css";
 
 function SignUp() {
     const handleClick=()=>{
-        console.log('button clicked')
+        let p1 = document.getElementById('p1')
+        console.log(p1)
     }
     return (
         <div className='signup-container'>
