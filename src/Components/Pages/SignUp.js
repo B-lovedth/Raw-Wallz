@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SignUp.css";
 
 function SignUp() {
+    const [click,SetClick] = useState(false)
     const handleClick=()=>{
         const p1 = document.getElementById('p1')
         const p2 = document.getElementById('p2')
@@ -21,9 +22,9 @@ function SignUp() {
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <label></label>
                     <input required type="email" name="Name"  placeholder="Email" />
-                    <p id="show-p">show<i className="fab fa-eyes"></i></p>
                     <input required type="password" name="Name" id="p1" placeholder="Password" />
                     <input required type="password" name="" id="p2" placeholder="Confirm Password" />
+                    <p id="show-p">show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}></i></p>
                     <button type="submit" onClick={handleClick}>Sign up</button>
                 </form>
                 </div>
