@@ -6,7 +6,7 @@
     margin: 80px auto 0 auto;
     max-width: 400px;
     text-align: center;
-    
+    border:1px solid #011b2f
 }
 .form-wrapper{
     margin: 0 auto;
@@ -18,10 +18,11 @@
     color:#011b2f;
 }
 .signup-container h1{
-    font-size: 45px;
-    margin-bottom: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
     letter-spacing: 1.9px;
     color: #011b2f;
+    text-align: left;
 }
 .form-wrapper input{
     width: 100%;
