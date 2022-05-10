@@ -17,14 +17,13 @@ function SignUp() {
             <h1>SIGN UP</h1>
                 <div className="form-wrapper">
                 <form action="#">
-                    <label>Username</label>
-                    <input required type="text" name="Name"  placeholder="Name" />
                     <label></label>
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <label></label>
                     <input required type="email" name="Name"  placeholder="Email" />
-                    <label></label>
+                    <p id="show-p">show password</p>
                     <input required type="password" name="Name" id="p1" placeholder="Password" />
+                    <input type="checkbox" onclick="myFunction()"/>
                     <input required type="password" name="" id="p2" placeholder="Confirm Password" />
                     <button type="submit" onClick={handleClick}>Sign up</button>
                 </form>
