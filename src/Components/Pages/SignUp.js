@@ -3,8 +3,13 @@ import "./SignUp.css";
 
 function SignUp() {
     const handleClick=()=>{
-        let p1 = document.getElementById('p1')
-        console.log(p1)
+        const p1 = document.getElementById('p1')
+        const p2 = document.getElementById('p2')
+        if(p1.value===p2.value){
+            console.log("Same password")
+        }else{
+            console.log("different password")
+        }
     }
     return (
         <div className='signup-container'>
@@ -13,11 +18,11 @@ function SignUp() {
                 <div className="form-wrapper">
                 <form action="#">
                     <label>Username</label>
-                    <input required type="text" name="Name" id="" placeholder="Name" />
+                    <input required type="text" name="Name"  placeholder="Name" />
                     <label></label>
-                    <input required type="text" name="Name" id="" placeholder="Preferred Username" />
+                    <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <label></label>
-                    <input required type="email" name="Name" id="" placeholder="Email" />
+                    <input required type="email" name="Name"  placeholder="Email" />
                     <label></label>
                     <input required type="password" name="Name" id="p1" placeholder="Password" />
                     <input required type="password" name="" id="p2" placeholder="Confirm Password" />
