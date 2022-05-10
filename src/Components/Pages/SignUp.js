@@ -21,9 +21,8 @@ function SignUp() {
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <label></label>
                     <input required type="email" name="Name"  placeholder="Email" />
-                    <p id="show-p">show <i className="fab fa eye"></i></p>
+                    <p id="show-p">show<i className="fab fa-eyes"></i></p>
                     <input required type="password" name="Name" id="p1" placeholder="Password" />
-                    <input type="checkbox" onclick="myFunction()"/>
                     <input required type="password" name="" id="p2" placeholder="Confirm Password" />
                     <button type="submit" onClick={handleClick}>Sign up</button>
                 </form>
