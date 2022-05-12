@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./SignUp.css";
+import Footer from '../Footer'
+import { Button } from "../Button";
 
 function SignUp() {
     const [click,SetClick] = useState(false)
@@ -22,9 +24,9 @@ function SignUp() {
     return (
         <div className='signup-container'>
             <div className="form-container">
-            <h1>SIGN UP</h1>
                 <div className="form-wrapper">
-                <form action="#">
+                <form action="#" className="form-items">
+                    <h1>SIGN UP</h1>
                     <label></label>
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <label></label>
@@ -32,11 +34,13 @@ function SignUp() {
                     <input required type="password" name="Name" id="p1" placeholder="Password" />
                     <input required type="password" name="" id="p2" placeholder="Confirm Password" />
                     <div id="show-p"><p>show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}></i></p></div>
-                    <button type="submit" onClick={handleClick}>Sign up</button>
+                    {/* <button type="submit" onClick={handleClick}>Sign up</button> */}
+                    <Button>Sign-up</Button>
+                    
                 </form>
                 </div>
-                
             </div>
+            <Footer/>        
         </div>
     );
 }
