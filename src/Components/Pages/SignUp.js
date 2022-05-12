@@ -35,7 +35,7 @@ function SignUp() {
                     <input required type="password" name="" id="p2" placeholder="Confirm Password" />
                     <div id="show-p"><p>show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}></i></p></div>
                     {/* <button type="submit" onClick={handleClick}>Sign up</button> */}
-                    <Button>Sign-up</Button>
+                    <Button onClick={handleClick}>Sign-up</Button>
                     
                 </form>
                 </div>
