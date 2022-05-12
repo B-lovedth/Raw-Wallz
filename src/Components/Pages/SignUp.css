@@ -1,9 +1,8 @@
 .signup-container{
-   background: #e0f0fd;
    height: 100vh;
 }
 .form-container{
-    margin: 80px auto 0 auto;
+    margin: 150px auto 0 auto;
     max-width: 400px;
     text-align: center;
     border:1px solid #011b2f
@@ -31,7 +30,7 @@
     margin: 20px 0;
     box-sizing: border-box;
     border: none;
-    border-radius: 9px;
+    border-radius: 3px;
     display: block;
     border-left: 10px solid #011b2f;
     box-shadow: 0 10px 10px  #01143985;
