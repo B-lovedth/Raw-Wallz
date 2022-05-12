@@ -27,10 +27,10 @@ function SignUp() {
                 <div className="form-wrapper">
                 <form action="#" className="form-items">
                     <h1>SIGN UP</h1>
-                    <label></label>
+                    <label>E-mail</label>
+                    <input required type="email" name="Name"  placeholder="Email" />
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <label></label>
-                    <input required type="email" name="Name"  placeholder="Email" />
                     <input required type="password" name="Name" id="p1" placeholder="Password" />
                     <input required type="password" name="" id="p2" placeholder="Confirm Password" />
                     <div id="show-p"><p>show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}></i></p></div>

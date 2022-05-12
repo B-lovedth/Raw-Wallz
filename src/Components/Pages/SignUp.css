@@ -14,8 +14,7 @@
     
 }
 .form-wrapper label{
-    /* text-align: left; */
-    display: none;
+    text-align: left;
     font-size: 20px;
     color:#011b2f;
 }
@@ -42,7 +41,9 @@
 }
 .form-wrapper button{
     width:100px;
-    display: block;
+    display:block;
+    align-items: center;
+    /* align-self:flex-end ; */
     background: #011b2f;
     font-size: 40px;
     color:#fff;
