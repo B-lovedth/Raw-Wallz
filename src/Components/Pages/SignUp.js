@@ -5,12 +5,10 @@ import { Button } from "../Button";
 
 function SignUp() {
     const [click,SetClick] = useState(false)
-    const pass = document.getElementById('show-p')
-    // pass.addEventListener("click",function(){
-    //     SetClick(!click)
-    //     pass.innerHTML = '<p>hide<i className="fa-solid fa-eye-slash"></i></p>'
-        
-    // })
+    const pass = document.getElementById('show-p') 
+    pass.addEventListener("click",function(){
+        SetClick(!click)        
+    })
 
     const handleClick=()=>{
         const p1 = document.getElementById('p1')
