@@ -1,5 +1,6 @@
 .signup-container{
-   height: 100vh;
+   /* height: 100vh; */
+   margin: 0;
 }
 .form-container{
     margin: 150px auto 0 auto;
