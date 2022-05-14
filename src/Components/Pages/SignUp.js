@@ -6,11 +6,7 @@ import { Button } from "../Button";
 function SignUp() {
     const [click,SetClick] = useState(false)
     const pass = document.getElementById('show-p') 
-    pass.addEventListener("click",function(){
-        SetClick(!click)       
-        console.log('been clicked',click)
-    })
-
+    
     const handleClick=()=>{
         const p1 = document.getElementById('p1')
         const p2 = document.getElementById('p2')
