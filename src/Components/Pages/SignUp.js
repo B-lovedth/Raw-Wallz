@@ -6,14 +6,25 @@ import { Button } from "../Button";
 function SignUp() {
     const [click,SetClick] = useState(false)
     const pass = document.getElementById('show-p') 
+    const p1 = document.getElementById('p1')
+    const p2 = document.getElementById('p2')
+    const err = document.getElementById('error')
     console.log(pass)
-    const handleClick=()=>{
-        const p1 = document.getElementById('p1')
-        const p2 = document.getElementById('p2')
-        if(p1.value===p2.value){
-            console.log("Same password")
+    const showPassword = () =>{
+        SetClick(!click)
+        if(click===false){
+            p1.type= "password"
+            p2.type="password"
         }else{
-            console.log("different password")
+            p1.type = "text"
+            p2.type = "text"
+        }
+    }
+    const handleClick=()=>{
+        if(p1.value===p2.value){
+            err.textContent =""
+        }else{
+            err.textContent = "the passwords are not the same"
         }
     }
     return (
@@ -28,7 +39,7 @@ function SignUp() {
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <div className="password-flex">
                         <label>Password  </label>
-                        <p  id="show-p">show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}></i></p>
+                        <p  id="show-p" onClick={showPassword}>show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}>i</i></p>
                     </div>
                    
                     <input required type="password" name="Name" id="p1" placeholder="********" />
@@ -36,6 +47,7 @@ function SignUp() {
                     <input required type="password" name="" id="p2" placeholder="********" />
                     
                     <Button onClick={handleClick}>Sign-up</Button>
+                    <div id="error"></div>
                     
                 </form>
                 </div>

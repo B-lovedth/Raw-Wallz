@@ -23,6 +23,11 @@
     display:flex;
     justify-content: space-between;
 }
+#show-p{
+    color:#011b2f;
+    font-size: 20px;
+    cursor: pointer;
+}
 .signup-container h1{
     font-size: 25px;
     margin-bottom: 25px;
