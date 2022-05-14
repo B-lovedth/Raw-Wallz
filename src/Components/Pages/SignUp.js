@@ -7,7 +7,8 @@ function SignUp() {
     const [click,SetClick] = useState(false)
     const pass = document.getElementById('show-p') 
     pass.addEventListener("click",function(){
-        SetClick(!click)        
+        SetClick(!click)       
+        console.log("")
     })
 
     const handleClick=()=>{
