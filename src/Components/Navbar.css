@@ -104,7 +104,6 @@
       top: -900px;
       opacity: 0;
       padding-top: 40px;
-      transition: all 0.1s ease-out;
     }
   
     .nav-menu.active {

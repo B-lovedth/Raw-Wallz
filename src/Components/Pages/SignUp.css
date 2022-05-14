@@ -42,8 +42,7 @@
 }
 .form-items button{
     width:100px;
-    /* display:; */
-    margin-left: 85%;
+    display:block;
     background: #011b2f;
     font-size: 40px;
     color:#fff;
