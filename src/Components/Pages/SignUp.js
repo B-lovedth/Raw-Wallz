@@ -24,12 +24,17 @@ function SignUp() {
                     <h1>SIGN UP</h1>
                     <label>E-mail</label>
                     <input required type="email" name="Name"  placeholder="Email" />
+                    <label>Name</label>
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
-                    <label></label>
-                    <input required type="password" name="Name" id="p1" placeholder="Password" />
-                    <input required type="password" name="" id="p2" placeholder="Confirm Password" />
-                    <div id="show-p"><p>show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}></i></p></div>
-                    {/* <button type="submit" onClick={handleClick}>Sign up</button> */}
+                    <div className="password-flex">
+                        <label>Password  </label>
+                        <p  id="show-p">show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}></i></p>
+                    </div>
+                   
+                    <input required type="password" name="Name" id="p1" placeholder="********" />
+                    <label>Confirm Password</label>
+                    <input required type="password" name="" id="p2" placeholder="********" />
+                    
                     <Button onClick={handleClick}>Sign-up</Button>
                     
                 </form>
