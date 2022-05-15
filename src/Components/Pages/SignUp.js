@@ -17,14 +17,13 @@ function SignUp() {
             p2.type="password"
         }else{
             p1.type = "text"
-            p2.type = "text"
-        }
+            p2.type = "text"}       
     }
     const handleClick=()=>{
         if(p1.value===p2.value){
             err.textContent =""
         }else{
-            err.textContent = "the passwords are not the same"
+            err.textContent = "The passwords are not the same,Make sure they are!"
         }
     }
     return (
@@ -39,12 +38,12 @@ function SignUp() {
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <div className="password-flex">
                         <label>Password  </label>
-                        <p  id="show-p" onClick={showPassword}>show<i className={click ? "fa-solid fa-eye-slash": "fa-solid fa-eye"}>i</i></p>
+                        <p  id="show-p" onClick={showPassword}><i className={click ? "fa-solid fa-eye" : "fa-solid fa-eye-slash"}></i>{click ? "show" : "hide"}</p>
                     </div>
                    
-                    <input required type="password" name="Name" id="p1" placeholder="********" />
+                    <input required type="password" name="Name" id="p1" placeholder="*********" />
                     <label>Confirm Password</label>
-                    <input required type="password" name="" id="p2" placeholder="********" />
+                    <input required type="password" name="" id="p2" placeholder="*********" />
                     
                     <Button onClick={handleClick}>Sign-up</Button>
                     <div id="error"></div>
@@ -57,4 +56,4 @@ function SignUp() {
     );
 }
 
-export default SignUp;
+export default SignUp
