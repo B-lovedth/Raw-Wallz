@@ -15,7 +15,8 @@ function SignUp() {
             p2.type="text"
         }else{
             p1.type = "password"
-            p2.type = "password"}    
+            p2.type = "password"
+        }    
 
         SetClick(!click)
     }
