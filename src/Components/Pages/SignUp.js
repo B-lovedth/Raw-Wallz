@@ -11,13 +11,13 @@ function SignUp() {
     const err = document.getElementById('error')
     const showPassword = () =>{
         if(click===false){
-            SetClick(!click)
-            p1.type= "password"
-            p2.type="password"
+            p1.type= "text"
+            p2.type="text"
         }else{
-            SetClick(!click)
-            p1.type = "text"
-            p2.type = "text"}       
+            p1.type = "password"
+            p2.type = "password"}    
+
+        SetClick(!click)
     }
     const handleClick=()=>{
         if(p1.value===p2.value){
