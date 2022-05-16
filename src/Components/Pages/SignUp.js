@@ -37,7 +37,7 @@ function SignUp() {
                     <input required type="text" name="Name"  placeholder="Preferred Username" />
                     <div className="password-flex">
                         <label>Password  </label>
-                        <p  id="show-p" onClick={showPassword}><i className={click ? "fa-solid fa-eye" : "fa-solid fa-eye-slash"}></i>{click ? "Hide" : "Show"}</p>
+                        <p  id="show-p" onClick={showPassword}><i className={click ? "fa-solid fa-eye-slash" : "fa-solid fa-eye"}></i>{click ? "Hide" : "Show"}</p>
                     </div>
                    
                     <input required type="password" name="Name" id="p1" placeholder="*********" />
