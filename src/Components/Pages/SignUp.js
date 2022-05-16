@@ -10,11 +10,12 @@ function SignUp() {
     const p2 = document.getElementById('p2')
     const err = document.getElementById('error')
     const showPassword = () =>{
-        SetClick(!click)
         if(click===false){
+            SetClick(!click)
             p1.type= "password"
             p2.type="password"
         }else{
+            SetClick(!click)
             p1.type = "text"
             p2.type = "text"}       
     }
