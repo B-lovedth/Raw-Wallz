@@ -5,7 +5,6 @@ import { Button } from "../Button";
 
 function SignUp() {
     const [click,SetClick] = useState(false)
-    // const pass = document.getElementById('show-p') 
     const p1 = document.getElementById('p1')
     const p2 = document.getElementById('p2')
     const err = document.getElementById('error')
@@ -17,7 +16,6 @@ function SignUp() {
             p1.type = "password"
             p2.type = "password"
         }    
-
         SetClick(!click)
     }
     const handleClick=()=>{
