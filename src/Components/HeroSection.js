@@ -2,11 +2,11 @@ import "./HeroSection.css";
 import "../App.css";
 import hero1 from "./hero-1.png";
 import hero2 from "./hero-2.png";
-import {FaArrowAltCircleLeft} from 'react-icons/fa'
+import {FaArrowAltCircleRight} from 'react-icons/fa'
 const HeroSection = () => {
   return (
     <>
-      <div className='hero-container'>
+      <div className='hero-container' id="hero">
         <img src={hero2} alt='hero-2' className='left' />
         <div className='hero-subcontainer'>
           <div className='subcontainer'>
@@ -16,7 +16,7 @@ const HeroSection = () => {
               <p>Let's Go</p>
               <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem a, quos voluptates accusamus natus exercitationem rem placeat quisquam, iste enim voluptas atque, doloremque iure quia voluptatibus! Iure, cupiditate? Tempore iusto praesentium nemo id doloribus quos accusantium maiores iure! Non, at.</h5>
               <div className='btns'>
-                <button className="bold">Get Started<FaArrowAltCircleLeft/></button>
+                <button className="bold">Get Started <FaArrowAltCircleRight className="arrow"/></button>
               </div>
             </div>
             <div className='image'>
