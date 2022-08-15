@@ -12,7 +12,7 @@
     transition:0.3s ease-in-out;
   }
   .navbar.scrolled{
-    background: linear-gradient(150deg, #141414 , #1a1717 100%);
+    background: linear-gradient(150deg, #6a37ab, #2b3dc3 100%);
     transition: 0.3s ease-in-out;
     height:80px;
   }
