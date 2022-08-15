@@ -6,6 +6,12 @@ import "./Navbar.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [scrolled, setScrolled] = useState(false)
+  const checkScrolled = () =>{
+    if (window.scrollY > 50) {
+      setScrolled(true)
+    } else setScrolled(false);
+  }
   const handleClick = () => {
     setClick(!click);
   };
@@ -26,14 +32,19 @@ const Navbar = () => {
 
   useEffect(() => {
     showButton();
+    checkScrolled()
+    window.addEventListener("scroll", checkScrolled);
+
+    return(()=> window.removeEventListener("scroll" , checkScrolled))
+
   }, []);
 
   return (
     <div>
-      <nav className="navbar">
+      <nav className={scrolled ? 'navbar scrolled' : 'navbar'}>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <i class="fa-brands fa-sitrox fa-bounce"></i>OMA
+            Project
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars-staggered"}> </i>
@@ -41,7 +52,7 @@ const Navbar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                {click ? "Home" : <i class="fa-solid fa-house"></i>}
+                Home
               </Link>
             </li>
             <li className="nav-item">
@@ -50,7 +61,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                {click ? "Services" : <i class="fa-solid fa-computer"></i>}
+                Services
               </Link>
             </li>
             <li className="nav-item">
@@ -59,7 +70,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                {click ? "Products" : <i class="fa-solid fa-bars-progress"></i>}
+                Products
               </Link>
             </li>
             <li className="nav-item">
