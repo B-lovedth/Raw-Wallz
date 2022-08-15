@@ -1,35 +1,32 @@
-import { Button } from "./Button"
-import './HeroSection.css'
-import '../App.css'
-
+import "./HeroSection.css";
+import "../App.css";
+import hero1 from "./hero-1.png";
+import hero2 from "./hero-2.png";
+import {FaArrowAltCircleLeft} from 'react-icons/fa'
 const HeroSection = () => {
   return (
     <>
-    <div className = 'hero-container'>
-      {/* <video src="./Video/video-4.mp4" autoPlay loop muted/> */}
-      <h1>Explore Amazing Images</h1>
-      <p>Let's Go</p>
-      <div className="hero-btns">
-          <Button
-            className='btns'
-            buttonStyle='btn--outline'
-            buttonSize='btn--large'
-            link='/sign-up'
-            >
-              GET STARTED
-            </Button>
-          <Button
-            className='btns'
-            buttonStyle='btn--primary'
-            buttonSize='btn--large'
-            link='/trailer'
-            >
-              WATCH TRAILER <i class="fa-regular fa-circle-play"></i>
-            </Button>
+      <div className='hero-container'>
+        <img src={hero2} alt='hero-2' className='left' />
+        <div className='hero-subcontainer'>
+          <div className='subcontainer'>
+            <div className='text'>
+              <h2>Explore</h2>
+              <h2 className="color-header">Amazing Aesthetics</h2>
+              <p>Let's Go</p>
+              <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem a, quos voluptates accusamus natus exercitationem rem placeat quisquam, iste enim voluptas atque, doloremque iure quia voluptatibus! Iure, cupiditate? Tempore iusto praesentium nemo id doloribus quos accusantium maiores iure! Non, at.</h5>
+              <div className='btns'>
+                <button className="bold">Get Started<FaArrowAltCircleLeft/></button>
+              </div>
+            </div>
+            <div className='image'>
+              <img src={hero1} alt='hero-1' className='astro' />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
     </>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
