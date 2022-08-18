@@ -4,15 +4,7 @@
   position: relative;
   z-index: 100;
 }
-.item img{
-  position:absolute;
-  left:0;
-  height:5rem;
-  width: 5rem;
-}
-.item{
-  position:absolute;
-}
+
 .link{
   text-decoration: none;
 }
