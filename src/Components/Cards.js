@@ -71,7 +71,6 @@ const Cards = () => {
           </Splide>
         </div>
       </div>
-      {/* <Link to='/'><button id='btn-more'>More</button></Link> */}
     </div>
   );
 }
