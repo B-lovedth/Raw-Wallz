@@ -3,7 +3,7 @@
    margin: 0;
 }
 .form-container{
-    margin: 150px auto 0 auto;
+    margin: 3rem auto 0;
     max-width: 700px;
     text-align: center;
     height: 100vh;
@@ -20,17 +20,22 @@
     color:#011b2f;
 }
 .password-flex{
-    display:flex;
-    justify-content: space-between;
+    position:relative;
 }
 #show-p{
+    position:absolute;
+    right:20px;
+    top:15px;
+}
+#show-p svg{
     color:#011b2f;
     font-size: 20px;
     cursor: pointer;
 }
-#error{
+.error{
     color: red;
     font-size: 20px;
+    transition:0.3s ease-in-out;
 }
 .signup-container h1{
     font-size: 25px;
@@ -41,6 +46,7 @@
 }
 .form-items input{
     width: 100%;
+    outline:none;
     font-size: 15px;
     padding: 15px 10px;
     margin: 20px 0;
