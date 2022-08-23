@@ -54,11 +54,9 @@ const Footer = () => {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link className='social-logo'>
               <a href='#hero' className='navbar-logo'>
                 Project
               </a>
-            </Link>
           </div>
           <small className='website-rights'>SOMA © 2022</small>
           <div className='social-icons'>

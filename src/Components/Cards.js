@@ -4,6 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import styled from "styled-components";
 import "./Cards.css";
+import {useState,  useEffect } from 'react';
 
 const Cards = () => {
   const data = [
@@ -38,8 +39,17 @@ const Cards = () => {
               id:6
             }
   ]
+  const [scrolled , setScrolled] = useState(false)
+  useEffect(() => {
+    const scrollHandle = () => {
+      if (window.scrollY > 60) setScrolled(true)
+      else setScrolled(false);
+    }
+    window.addEventListener("scroll", scrollHandle)
+    return ()=> window.removeEventListener("scroll",scrollHandle)
+  })
   return (
-    <div className='skill'>
+    <div className={scrolled ? 'skill in' : 'skill'}>
       <div className='container'>
         <h1>Check out these Awesome Categories</h1>
         <div className='wrapper'>
@@ -47,6 +57,7 @@ const Cards = () => {
             options={{
               perPage: 3,
               arrows: true,
+              rewind: true,
               pagination: true,
               autoplay: true,
               pauseOnHover: false,
