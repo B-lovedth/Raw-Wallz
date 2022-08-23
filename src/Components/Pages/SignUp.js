@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./SignUp.css";
-import Footer from '../Footer'
-import { Button } from "../Button";
 
 function SignUp() {
     const [click,SetClick] = useState(false)
@@ -44,13 +42,12 @@ function SignUp() {
                     <label>Confirm Password</label>
                     <input required type="password" name="" id="p2" placeholder="*********" />
                     
-                    <Button onClick={handleClick}>Sign-up</Button>
+                    <button onClick={handleClick}>Sign-up</button>
                     <div id="error"></div>
                     
                 </form>
                 </div>
             </div>
-            <Footer/>        
         </div>
     );
 }

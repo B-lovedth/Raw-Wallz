@@ -4,6 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import styled from "styled-components";
 import "./Cards.css";
+import cardBg from './card.png'
 import {useState,  useEffect } from 'react';
 
 const Cards = () => {
@@ -49,8 +50,8 @@ const Cards = () => {
     return ()=> window.removeEventListener("scroll",scrollHandle)
   })
   return (
-    <div className={scrolled ? 'skill in' : 'skill'}>
-      <div className='container'>
+    <div className='container'>
+      <div className={scrolled ? 'skill in' : 'skill'}>
         <h1>Check out these Awesome Categories</h1>
         <div className='wrapper'>
           <Splide
@@ -82,14 +83,15 @@ const Cards = () => {
           </Splide>
         </div>
       </div>
+      <img src={cardBg} alt="card-bg" className='card-bg'/>
     </div>
   );
 }
 const Card = styled.div`
-  max-height: 14rem;
+  max-height: 20rem;
   height: 15rem;
   max-width: 100%;
-  box-shadow: -5px 8px 5px #504f4fe6;
+  box-shadow: -5px 8px 5px #000;
   border-radius: 18px;
   margin: 0 auto;
   overflow: hidden;
@@ -135,16 +137,16 @@ const P = styled.p`
   position: relative;
   z-index: 1;
   bottom: 0%;
-  color: #383838;
   margin-top: 1rem;
   width: 100%;
   text-align: center;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   display: flex;
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  color: #fff;
   @media (max-width: 760px) {
     top: 0;
     font-size: 0.62rem;

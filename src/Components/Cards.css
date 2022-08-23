@@ -1,8 +1,23 @@
+.container{
+  position:relative;
+  width:100%;
+  height:25rem;
+  margin:0;
+  /* overflow:hidden; */
+}
 .skill {
-  margin:2rem 4rem;
-  padding: 0 0 50px 0;
-  position: relative;
+  margin:0rem 4rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:30rem;
+  top:-6rem;
+  position:relative;
+  background: linear-gradient(70deg, #d63adc, #1726a0 100%);
+  padding: 30px 70px;
   z-index: 100;
+  border-radius:50px;
   opacity:0;
   transform:translateX(-10%);
   transition:0.3s ease-in-out;
@@ -17,6 +32,13 @@
 .container h1{
   font-size:1.5rem;
   text-align: center;
-  margin: 1rem auto;
-  color:#666;
+  margin-bottom: 1rem;
+  color:#FFF;
+}
+.card-bg{
+  position:absolute;
+  left:-15px;
+  top:0;
+  height:100%;
+  z-index:0;
 }
