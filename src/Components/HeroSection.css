@@ -3,7 +3,7 @@
     height:100%;
     position:relative;
     width:100%;
-    background: linear-gradient(90.21deg, rgb(195, 46, 135) -5.91%, rgb(38, 62, 199));
+    background: linear-gradient(90.21deg, rgb(195, 46, 135) -3.91%, #e09d00);
     transition: all 500ms ease;
     overflow: hidden;
 }

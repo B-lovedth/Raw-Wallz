@@ -9,7 +9,8 @@
     scroll-padding-top: 75px;
   }
   body{
-    background: #e9c8ff;
+    background: linear-gradient(90.21deg, rgb(195, 46, 135) -5.91%, rgb(38, 62, 199));
+
   }
   .home,
   .services,
