@@ -1,7 +1,7 @@
 import "./HeroSection.css";
 import "../App.css";
 import hero1 from "./hero-1.png";
-import hero2 from "./hero-3.png";
+import hero2 from "./hero-5.png";
 import {FaArrowAltCircleRight} from 'react-icons/fa'
 const HeroSection = () => {
   return (

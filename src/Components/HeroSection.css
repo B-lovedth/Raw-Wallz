@@ -3,9 +3,26 @@
     height:100%;
     position:relative;
     width:100%;
-    background: linear-gradient(90.21deg, rgb(195, 46, 135) -3.91%, #e09d00);
+    /* background: linear-gradient(90.21deg, rgb(195, 46, 135) -3.91%, #e09d00); */
+    /* background:#5c0ed8; */
     transition: all 500ms ease;
     overflow: hidden;
+}
+.hero-container::before{
+    position:absolute;
+    left:0;
+    top:0;
+    content:"";
+    height:100%;
+    width:100%;
+    background:url(./hero-2.jpg);
+    opacity:0.7;
+    filter:blur(5px);
+    transition: 0.7s ease-in-out;
+}
+.hero-container:hover::before{
+    filter: blur(1px);
+    transition: 0.7s ease-in-out;
 }
 .hero-subcontainer{
     width:90%;
@@ -30,7 +47,7 @@
     margin-bottom: 1rem;
 }
 .text h2.color-header{
-    color:rgb(235, 231, 0);
+    color:#ffb404;
     font-family: "Lobster Two";
     margin-bottom: 1rem;
     transform:translate(10%, -70%)
@@ -55,7 +72,7 @@
     border-radius:8px;
 }
 .text button.bold{
-    background: linear-gradient(90.21deg, rgb(235 231 0), rgb(232 89 0 / 84%));
+    background: linear-gradient(90.21deg, #ff6916, #e09d00);
     color:#fff;
     border:none;
     transition:0.3s ease-in-out;
@@ -79,28 +96,14 @@
 .image img{
     height:40rem;
 }
-/* .hero-container::before{
-    content:' ';
-    background-image: url('../../public/images/img-17.png');
-    background-attachment:fixed;
-    position: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: -1;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    transition: all 1000ms ease;
-} */
+
 
 
 .left{
     position: absolute;
-    left: -30%;
+    right: -50%;
     height: 55rem;
-    opacity: 0.6;
-    top: 100px;
+    top: -30rem;
     z-index: 0;
 }
 

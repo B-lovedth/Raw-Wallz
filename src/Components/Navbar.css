@@ -13,9 +13,9 @@
     transition:0.3s ease-in-out;
   }
   .navbar.scrolled{
-    background: linear-gradient(150deg, #6a37ab, #31004f 100%);
+    background: linear-gradient(150deg, #262626, #181719 100%);
     transition: 0.3s ease-in-out;
-    height:80px;
+    height:70px;
   }
   
   .navbar-container {
@@ -103,7 +103,7 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #e09d00;
   }
   
   .fa-bars-staggered {

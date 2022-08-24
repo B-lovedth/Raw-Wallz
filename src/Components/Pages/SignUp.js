@@ -32,7 +32,7 @@ function SignUp() {
             if (passwordOne !== passwordTwo) {
                 setError('The passwords are not the same!')
             } else setError('');
-        }
+        }else setError('')
     },[passwordOne,passwordTwo])
     return (
       <div className='signup-container'>
