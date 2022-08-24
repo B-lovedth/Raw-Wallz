@@ -14,9 +14,9 @@ function SignUp() {
     const [clickTwo,setClickTwo] = useState(false)
   const [error, setError] = useState('')
   const [mode, setMode] = useState(false)
-  const modeHandle = () => {
+  const modeHandle = (e) => {
     setMode(!mode)
-    console.log(mode)
+    e.preventDefault()
   }
     const handleClick=()=>{
     
@@ -136,7 +136,7 @@ function SignUp() {
                   <button type='submit' onClick={handleClick}>
                     Sign up
                   </button>
-                  <button onClick={() => modeHandle()}>Log-in?</button>
+                  <button className="btn-mode" onClick={(e) => modeHandle(e)}>Log-in?</button>
                 </div>
               </form>
             </div>
@@ -167,7 +167,6 @@ function SignUp() {
                 <div className='row'></div>
                 <div className='row-input'>
                   <input
-                    required
                     placeholder='E-mail'
                     type='email'
                     name='email'
@@ -181,7 +180,6 @@ function SignUp() {
                 <div className='row-input'>
                   <div className='password-flex'>
                     <input
-                      required
                       placeholder='Password'
                       type={clickOne ? "text" : "password"}
                       name='password'
@@ -196,7 +194,7 @@ function SignUp() {
                 <div className='error'>{error}</div>
                 <div className='btn-wrapper'>
                   <button onClick={handleClick}>Log in</button>
-                  <button onClick={() => modeHandle()} className='mode'>
+                  <button className='btn-mode' onClick={(e) => modeHandle(e)}>
                     Sign up?
                   </button>
                 </div>
