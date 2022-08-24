@@ -227,7 +227,7 @@
         overflow:hidden;
     }
     .social-container span:hover{
-        color:#000;
+        color:#e09d00;
     }
 
     .social-container span::before{
@@ -280,7 +280,11 @@
     transition: transform 80ms ease-in;
     cursor: pointer;
 }
-
+.btn-wrapper button.btn-mode{
+    background:transparent;
+    border: 1px solid #e09d00;
+    color:#ffe5a8 !important;
+}
 button:active{
     transform: scale(0.95);
 }
