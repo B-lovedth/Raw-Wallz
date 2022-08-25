@@ -1,23 +1,18 @@
-video{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-}
+
 .hero-container::before{
     content:' ';
-    background-image: url('../../public/images/img-16.png');
+    background-image: url('../../public/images/img-16.jpg');
     background-attachment:fixed;
-    position: fixed;
+    top:0;
+    position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(5px);
+    filter: blur(3px);
     z-index: -1;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     transition: all 1000ms ease;
 }
 
@@ -29,24 +24,25 @@ video{
 .hero-container{
     height:100vh;
     width:100%;
-    display:flex;
-    justify-content: center;
-    flex-direction:column;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit:contain;
     transition: all 500ms ease;
+}
+.hero-wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:11rem 0;
 }
 
 .hero-container  h1{
     color: #fff;
     font-size:100px;
-    margin-top: -100px;
     color:#fff;
     transition: all 500ms ease;
 }
 
-.hero-container > p{
+.hero-container p{
     margin-top:8px;
     color:#fff;
     font-size:32px;
