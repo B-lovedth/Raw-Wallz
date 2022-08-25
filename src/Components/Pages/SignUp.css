@@ -36,8 +36,10 @@
     .error{
         color: red;
         font-size: 20px;
+        font-size:500;
         transition:0.3s ease-in-out;
     }
+    
     .signup-container h1{
         font-size: 25px;
         margin-bottom: 25px;
@@ -252,6 +254,9 @@
         margin:1rem 0;
         font-size: 15px;
         transition:0.3s ease-in-out;
+    }
+    .error.no{
+        color:#00ff00;
     }
     #show-p{
         position: absolute;
