@@ -69,14 +69,14 @@ const Cards = () => {
           >
             {data.map((image) => {
               return (
-                <SplideSlide key={image.id}>
-                  <Link to={`/image/${image.id}`} className="link">
+                <SplideSlide className='slide-card' key={image.id}>
+                  <div className="card">
                     <Card>
                       <img src={image.src} alt={image.title} />
                       <Gradient />
                     </Card>
                     <P>{image.title}</P>
-                  </Link>
+                  </div>
                 </SplideSlide>
               );
             })}
@@ -91,22 +91,20 @@ const Card = styled.div`
   max-height: 20rem;
   height: 15rem;
   max-width: 100%;
-  box-shadow: -5px 8px 5px #000;
-  border-radius: 18px;
+  border-radius: 2px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
   img {
-    border-radius: 18px;
     position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all 500ms ease-in-out;
   }
-  &:hover {
+  &:hover img {
     transform: scale(1.05);
-    transition: all 500ms ease;
   }
   @media (max-width: 760px) {
     width: 100%;
