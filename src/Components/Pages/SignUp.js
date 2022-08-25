@@ -12,7 +12,8 @@ function SignUp() {
     const [passwordTwo, setPasswordTwo] = useState('')
     const [clickOne,setClickOne] = useState(false)
     const [clickTwo,setClickTwo] = useState(false)
-  const [error, setError] = useState('')
+  const [error, setError] = useState(null)
+  const [errorMsg,setErrorMsg] = useState('')
   const [mode, setMode] = useState(false)
   const modeHandle = (e) => {
     setMode(!mode)
@@ -29,10 +30,17 @@ function SignUp() {
     }
     useEffect(() => {
         if (passwordOne.trim() !== "" && passwordTwo.trim() !== "") {
-            if (passwordOne !== passwordTwo) {
-                setError('The passwords are not the same!')
-            } else setError('');
-        }else setError('')
+          if (passwordOne !== passwordTwo) {
+            setError(true)
+            setErrorMsg('The passwords are not the same!')
+          } else {
+            setError(false)
+            setErrorMsg("You're good to go!");
+          }
+        } else {
+          setError(null)
+          setErrorMsg('')
+        }
     },[passwordOne,passwordTwo])
     return (
       <div className='signup-container'>
@@ -131,7 +139,7 @@ function SignUp() {
                     </span>
                   </div>
                 </div>
-                <div className='error'>{error}</div>
+                <div className={error ? 'error':'error no'}>{errorMsg}</div>
                 <div className='btn-wrapper'>
                   <button type='submit' onClick={handleClick}>
                     Sign up
@@ -191,7 +199,6 @@ function SignUp() {
                     </span>
                   </div>
                 </div>
-                <div className='error'>{error}</div>
                 <div className='btn-wrapper'>
                   <button onClick={handleClick}>Log in</button>
                   <button className='btn-mode' onClick={(e) => modeHandle(e)}>
