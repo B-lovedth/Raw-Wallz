@@ -122,6 +122,18 @@
         font-size:70px ;
         margin-top: -150px;
     }
+    .left{display:none;}
+    .image{display:none;}
+    .hero-subcontainer{
+        margin: 7rem auto !important;
+        text-align: center;
+    }
+    .text h2{
+        font-size:3rem;
+    }
+    .text h2.color-header{
+        transform:translate(0,0)
+    }
 }
 
 @media screen and (max-width:768px){

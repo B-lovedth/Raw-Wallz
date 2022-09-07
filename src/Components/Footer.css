@@ -140,7 +140,10 @@
     .footer-links {
       padding-top: 2rem;
     }
+    .footer-container{
+      flex-direction: column;
   
+    }
     .footer-input {
       width: 100%;
     }

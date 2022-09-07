@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import {FaBars,FaTimes} from 'react-icons/fa'
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -46,9 +47,7 @@ const Navbar = () => {
             Project
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars-staggered"}>
-              {" "}
-            </i>
+              {click ? <FaTimes/> : <FaBars/>}
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className='nav-item'>
