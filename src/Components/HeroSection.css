@@ -101,12 +101,22 @@
 
 .left{
     position: absolute;
-    right: -50%;
-    height: 55rem;
-    top: -30rem;
+    right: 6%;
+    height: 35rem;
+    width: 30rem;
+    top: 5rem;
     z-index: 0;
+    filter: blur(40px);
+    animation:12s rotate infinite linear;
 }
-
+@keyframes rotate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
 @media screen and (max-width:960px){
     .hero-container h1{
         font-size:70px ;
