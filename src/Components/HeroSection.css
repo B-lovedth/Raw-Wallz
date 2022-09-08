@@ -123,11 +123,14 @@
         margin-top: -150px;
     }
     .left{display:none;}
-    .image{display:none;}
+    /* .image{display:none;} */
     .hero-subcontainer{
         margin: 7rem auto !important;
         text-align: center;
     }
+        .subcontainer{
+            flex-direction: column;
+        }
     .text h2{
         font-size:3rem;
     }
